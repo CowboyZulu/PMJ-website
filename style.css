@@ -1,0 +1,306 @@
+/* Set the font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Set the background color to white */
+body {
+    background-color: #fff;
+}
+
+/* Set the text color to dark blue */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+    color: #1a2b42;
+}
+
+
+        
+        /* Set the link color to green */
+a {
+    color: #80a080;
+}
+
+header {
+    background-color: #3a75518e;
+    /* white background */
+    color: #333333;
+    /* dark text color */
+    padding: 20px 0;
+    /* add some space above and below header */
+    position: fixed;
+    /* make header fixed to the top of the viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    /* make sure header is always on top */
+}
+
+.header-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* center the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #2e2e2e;
+}
+
+
+
+section h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+
+
+}
+
+
+/* Style the main section */
+main {
+    max-width: 800px;
+    margin: 100 auto;
+    padding: 200px;
+}
+
+/* Style the about me section */
+section:nth-of-type(1) {
+    height: 75vh;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style the skills section */
+section:nth-of-type(2) {
+    height: 75vh;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* Style for the section with recent projects */
+.projects {
+    text-align: center;
+    height: 75vh;
+    background-color: #f6f6f6;
+    padding: 50px 0;
+}
+
+/* Style for each project container */
+.project-container {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Style for the project image */
+.project-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the project title */
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Style for the project description */
+.project-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666;
+}
+
+/* Style for the project link */
+.project-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #0077c0;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Style for the project link on hover */
+.project-link:hover {
+    color: #005ea3;
+}
+
+/* Style the contact section */
+section:nth-of-type(4) {
+
+    margin-bottom: 20px;
+}
+
+/* Style the headings */
+h1,
+h2 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* Style the list items */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the links in the list items */
+ul li a {
+    text-decoration: none;
+}
+
+/* Style the contact links */
+section:nth-of-type(4) a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style the email link */
+section:nth-of-type(4) a[href^="mailto:"]::before {
+    content: "\2709\0020";
+}
+
+/* Style the phone link */
+section:nth-of-type(4) a[href^="tel:"]::before {
+    content: "\260E\0020";
+}
+
+#contact {
+    height: 75vh;
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#contact form {
+    height: 75vh;
+    display: inline-block;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contact button {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #006666;
+}
+
+#services {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.service p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
